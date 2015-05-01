@@ -1,0 +1,44 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @form.name %>
+</p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @form.email %>
+</p>
+
+<p>
+  <strong>Phone:</strong>
+  <%= @form.phone %>
+</p>
+
+<p>
+  <strong>Adress:</strong>
+  <%= @form.adress %>
+</p>
+
+<p>
+  <strong>City:</strong>
+  <%= @form.city %>
+</p>
+
+<p>
+  <strong>Country:</strong>
+  <%= @form.country %>
+</p>
+
+<p>
+  <strong>Zip:</strong>
+  <%= @form.zip %>
+</p>
+
+<p>
+  <strong>Summary:</strong>
+  <%= @form.summary %>
+</p>
+
+<%= link_to 'Edit', edit_form_path(@form) %> |
+<%= link_to 'Back', forms_path %>
